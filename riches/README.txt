@@ -30,6 +30,7 @@ delete ${TOMCAT_HOME}/webapps/riches.war
 follow the "building and runnig the application" instructions to deploy a fresh copy
 
 
+
 ## STARTING TOMCAT ##
 run ${TOMCAT_HOME}/bin/startup
 
