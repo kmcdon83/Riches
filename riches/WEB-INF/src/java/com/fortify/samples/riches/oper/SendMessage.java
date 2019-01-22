@@ -1,9 +1,9 @@
-package com.fortify.samples.riches.oper;
+package com.checkmarx.samples.riches.oper;
 
-import com.fortify.samples.riches.AdminSupport;
-import com.fortify.samples.riches.model.ProfileService;
-import com.fortify.samples.riches.model.Message;
-import com.fortify.samples.riches.model.MessageService;
+import com.checkmarx.samples.riches.AdminSupport;
+import com.checkmarx.samples.riches.model.ProfileService;
+import com.checkmarx.samples.riches.model.Message;
+import com.checkmarx.samples.riches.model.MessageService;
 
 import java.io.InputStream;
 import java.sql.Date;
@@ -49,7 +49,7 @@ public class SendMessage extends AdminSupport {
             cmd[1] = "/c";
             java = System.getProperty("java.home") + "\\bin\\java";
             cp = System.getProperty("catalina.home") + "\\webapps\\riches\\WEB-INF\\classes";
-            cmd[2] = "\"\"" + java + "\" -cp \""+ cp +"\" com.fortify.samples.riches.legacy.mail.SendMail \"" + subject + "\" \"" + severity + "\" \"" + body + "\" " + to +"\"";
+            cmd[2] = "\"\"" + java + "\" -cp \""+ cp +"\" com.checkmarx.samples.riches.legacy.mail.SendMail \"" + subject + "\" \"" + severity + "\" \"" + body + "\" " + to +"\"";
         }
         else
         {
@@ -57,7 +57,7 @@ public class SendMessage extends AdminSupport {
             cmd[1] = "-c";
             java = System.getProperty("java.home") + "/bin/java";
             cp = System.getProperty("catalina.home") + "/webapps/riches/WEB-INF/classes";
-            cmd[2] = "\"" + java + "\" -cp \""+ cp +"\" com.fortify.samples.riches.legacy.mail.SendMail \"" + subject + "\" \"" + severity + "\" \"" + body + "\" " + to ;
+            cmd[2] = "\"" + java + "\" -cp \""+ cp +"\" com.checkmarx.samples.riches.legacy.mail.SendMail \"" + subject + "\" \"" + severity + "\" \"" + body + "\" " + to ;
         }
 
         return cmd;

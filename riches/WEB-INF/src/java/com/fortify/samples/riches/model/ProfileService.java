@@ -1,9 +1,9 @@
-package com.fortify.samples.riches.model;
+package com.checkmarx.samples.riches.model;
 
 import net.sf.hibernate.*;
 import net.sf.hibernate.expression.Expression;
 import java.util.List;
-import com.fortify.samples.riches.database.ConnectionFactory;
+import com.checkmarx.samples.riches.database.ConnectionFactory;
 
 public class ProfileService
 {

@@ -1,4 +1,4 @@
-package com.fortify.samples.riches.database;
+package com.checkmarx.samples.riches.database;
 
 import javax.servlet.ServletContextListener;
 import javax.servlet.ServletContextEvent;

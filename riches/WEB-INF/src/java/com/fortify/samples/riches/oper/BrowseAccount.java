@@ -1,12 +1,12 @@
-package com.fortify.samples.riches.oper;
+package com.checkmarx.samples.riches.oper;
 
-import com.fortify.samples.riches.AdminSupport;
-import com.fortify.samples.riches.model.Profile;
-import com.fortify.samples.riches.model.ProfileService;
+import com.checkmarx.samples.riches.AdminSupport;
+import com.checkmarx.samples.riches.model.Profile;
+import com.checkmarx.samples.riches.model.ProfileService;
 import java.util.List;
 import org.apache.struts2.ServletActionContext;
 
-// Referenced classes of package com.fortify.samples.riches:
+// Referenced classes of package com.checkmarx.samples.riches:
 //            AdminSupport
 
 public class BrowseAccount extends AdminSupport

@@ -1,7 +1,7 @@
-package com.fortify.samples.riches.model;
+package com.checkmarx.samples.riches.model;
 
 import net.sf.hibernate.*;
-import com.fortify.samples.riches.database.ConnectionFactory;
+import com.checkmarx.samples.riches.database.ConnectionFactory;
 import org.apache.struts2.ServletActionContext;
 
 import javax.servlet.ServletContext;

@@ -1,7 +1,7 @@
-package com.fortify.samples.riches;
+package com.checkmarx.samples.riches;
 
 import com.opensymphony.xwork2.ActionSupport;
-import com.fortify.samples.riches.model.LocationService;
+import com.checkmarx.samples.riches.model.LocationService;
 import org.apache.struts2.ServletActionContext;
 
 import javax.servlet.http.HttpServletRequest;

@@ -210,8 +210,8 @@ port="8080"               maxThreads="150" minSpareThreads="25" maxSpareThreads=
       -->
 	  <Realm className="org.apache.catalina.realm.JAASRealm"
          appName="RichesDiscover"
-         userClassNames="com.fortify.samples.riches.security.UserPrincipal"
-         roleClassNames="com.fortify.samples.riches.security.RolePrincipal"
+         userClassNames="com.checkmarx.samples.riches.security.UserPrincipal"
+         roleClassNames="com.checkmarx.samples.riches.security.RolePrincipal"
 		 debug = "3"/>
 		 
       <!-- Define the default virtual host

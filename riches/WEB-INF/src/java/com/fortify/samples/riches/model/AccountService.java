@@ -1,4 +1,4 @@
-package com.fortify.samples.riches.model;
+package com.checkmarx.samples.riches.model;
 
 import net.sf.hibernate.*;
 import net.sf.hibernate.expression.Expression;
@@ -9,7 +9,7 @@ import java.sql.Date;
 import java.util.logging.Logger;
 
 
-import com.fortify.samples.riches.database.ConnectionFactory;
+import com.checkmarx.samples.riches.database.ConnectionFactory;
 
 public class AccountService
 {

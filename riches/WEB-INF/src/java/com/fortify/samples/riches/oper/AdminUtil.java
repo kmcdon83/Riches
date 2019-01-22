@@ -1,7 +1,7 @@
-package com.fortify.samples.riches.oper;
+package com.checkmarx.samples.riches.oper;
 
-import com.fortify.samples.riches.database.ConnFactory;
-import com.fortify.samples.riches.database.ConnectionFactory;
+import com.checkmarx.samples.riches.database.ConnFactory;
+import com.checkmarx.samples.riches.database.ConnectionFactory;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.Cookie;

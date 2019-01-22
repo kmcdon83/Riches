@@ -1,9 +1,9 @@
-package com.fortify.samples.riches;
+package com.checkmarx.samples.riches;
 
 import com.opensymphony.xwork2.ActionSupport;
-import com.fortify.samples.riches.database.ConnectionFactory;
-import com.fortify.samples.riches.oper.AdminUtil;
-import com.fortify.samples.riches.model.MessageService;
+import com.checkmarx.samples.riches.database.ConnectionFactory;
+import com.checkmarx.samples.riches.oper.AdminUtil;
+import com.checkmarx.samples.riches.model.MessageService;
 import net.sf.hibernate.Session;
 import net.sf.hibernate.Query;
 import org.apache.struts2.ServletActionContext;

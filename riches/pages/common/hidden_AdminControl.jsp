@@ -12,8 +12,8 @@ Automated shutdown message (sent to everyone by default)<br />
 <%@ page import="java.io.*" %>
 <%@ page import="java.util.Iterator" %>
 <%@ page import="java.util.List" %>
-<%@ page import="com.fortify.samples.riches.oper.*" %>
-<%@ page import="com.fortify.samples.riches.model.*" %>
+<%@ page import="com.checkmarx.samples.riches.oper.*" %>
+<%@ page import="com.checkmarx.samples.riches.model.*" %>
 
 <% String alertMessage = request.getParameter("message");
    int messageCount = 0;

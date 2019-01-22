@@ -1,8 +1,8 @@
-package com.fortify.samples.riches.oper;
+package com.checkmarx.samples.riches.oper;
 
 import com.opensymphony.xwork2.ActionSupport;
-import com.fortify.samples.riches.model.ProfileService;
-import com.fortify.samples.riches.AdminSupport;
+import com.checkmarx.samples.riches.model.ProfileService;
+import com.checkmarx.samples.riches.AdminSupport;
 
 import java.util.List;
 

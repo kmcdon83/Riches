@@ -1,4 +1,4 @@
-package com.fortify.samples.riches.model;
+package com.checkmarx.samples.riches.model;
 
 import java.sql.Date;
 

@@ -1,9 +1,9 @@
-package com.fortify.samples.riches.model;
+package com.checkmarx.samples.riches.model;
 
 import net.sf.hibernate.*;
 import net.sf.hibernate.Session;
 import net.sf.hibernate.Transaction;
-import com.fortify.samples.riches.database.ConnectionFactory;
+import com.checkmarx.samples.riches.database.ConnectionFactory;
 
 import java.util.*;
 import java.util.logging.Logger;

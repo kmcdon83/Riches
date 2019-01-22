@@ -1,6 +1,6 @@
-package com.fortify.samples.riches.oper;
+package com.checkmarx.samples.riches.oper;
 
-import com.fortify.samples.riches.AdminSupport;
+import com.checkmarx.samples.riches.AdminSupport;
 import org.apache.commons.io.FileUtils;
 
 import java.io.File;

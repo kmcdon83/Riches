@@ -1,1 +1,1 @@
-java -classpath . com.fortify.samples.riches.webservices.BannerAdClient
+java -classpath . com.checkmarx.samples.riches.webservices.BannerAdClient

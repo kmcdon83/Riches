@@ -8,7 +8,7 @@
   <display-name>riches</display-name>
 
 	<listener>
- 		<listener-class>com.fortify.samples.riches.database.DatabaseController</listener-class>
+ 		<listener-class>com.checkmarx.samples.riches.database.DatabaseController</listener-class>
 	</listener>
 
     <listener>

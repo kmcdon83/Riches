@@ -1,6 +1,6 @@
-package com.fortify.samples.riches.legacy.mail;
+package com.checkmarx.samples.riches.legacy.mail;
 
-import com.fortify.samples.riches.database.ConnFactory;
+import com.checkmarx.samples.riches.database.ConnFactory;
 import java.sql.Date;
 import java.sql.Connection;
 import java.sql.Statement;

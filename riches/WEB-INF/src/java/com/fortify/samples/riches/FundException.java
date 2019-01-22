@@ -1,4 +1,4 @@
-package com.fortify.samples.riches;
+package com.checkmarx.samples.riches;
 
 public class FundException extends Exception {
 	 public FundException(String message) {

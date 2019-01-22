@@ -1,4 +1,4 @@
-package com.fortify.samples.riches.webservices;
+package com.checkmarx.samples.riches.webservices;
 
 import java.rmi.registry.Registry;
 import java.rmi.registry.LocateRegistry;

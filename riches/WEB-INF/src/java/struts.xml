@@ -9,7 +9,7 @@
             <result-type name="tiles" class="org.apache.struts2.views.tiles.TilesResult"/>
         </result-types>
 
-        <action name="ShowLocations" class="com.fortify.samples.riches.FindLocations">
+        <action name="ShowLocations" class="com.checkmarx.samples.riches.FindLocations">
             <result>/pages/ShowLocations.jsp</result>
         </action>
        <action name="FindLocations">
@@ -45,7 +45,7 @@
         <action name="Register">
             <result>/login/Register.jsp</result>
         </action>
-        <action name="PerformRegistration" class="com.fortify.samples.riches.PerformRegistration">
+        <action name="PerformRegistration" class="com.checkmarx.samples.riches.PerformRegistration">
             <result>/login/PerformRegistration.jsp</result>
             <result name="input">/login/PerformRegistration.jsp</result>
             <result name="error">/login/PerformRegistration.jsp</result>
@@ -57,94 +57,94 @@
             <result-type name="tiles" class="org.apache.struts2.views.tiles.TilesResult"/>
         </result-types>
         
-        <action name="AccountSummary" class="com.fortify.samples.riches.AccountSummary">
+        <action name="AccountSummary" class="com.checkmarx.samples.riches.AccountSummary">
             <result>/pages/AccountSummary.jsp</result>
         </action>
-        <action name="AccountDetails" class="com.fortify.samples.riches.AccountDetails">
+        <action name="AccountDetails" class="com.checkmarx.samples.riches.AccountDetails">
             <result>/pages/AccountDetails.jsp</result>
         </action>
 
-        <action name="Transfer" class="com.fortify.samples.riches.Transfer">
+        <action name="Transfer" class="com.checkmarx.samples.riches.Transfer">
             <result>/pages/Transfer.jsp</result>
         </action>
-        <action name="PerformTransfer" class="com.fortify.samples.riches.PerformTransfer">
+        <action name="PerformTransfer" class="com.checkmarx.samples.riches.PerformTransfer">
             <result>/pages/PerformTransfer.jsp</result>
             <result name="input">/pages/PerformTransfer.jsp</result>
             <result name="error">/pages/PerformTransfer.jsp</result>
         </action>
 
-        <action name="ChangePass" class="com.fortify.samples.riches.AdminSupport">
+        <action name="ChangePass" class="com.checkmarx.samples.riches.AdminSupport">
             <result>/pages/ChangePass.jsp</result>
         </action>
-        <action name="PerformChangePass" class="com.fortify.samples.riches.PerformChangePass">
+        <action name="PerformChangePass" class="com.checkmarx.samples.riches.PerformChangePass">
             <result>/pages/PerformChangePass.jsp</result>
             <result name="input">/pages/PerformChangePass.jsp</result>
             <result name="error">/pages/PerformChangePass.jsp</result>
         </action>
 
-        <action name="Check" class="com.fortify.samples.riches.Check">
+        <action name="Check" class="com.checkmarx.samples.riches.Check">
             <result>/pages/Check.jsp</result>
         </action>
-        <action name="PerformCheck" class="com.fortify.samples.riches.PerformCheck">
+        <action name="PerformCheck" class="com.checkmarx.samples.riches.PerformCheck">
             <result>/pages/PerformCheck.jsp</result>
             <result name="input">/pages/PerformCheck.jsp</result>
             <result name="error">/pages/PerformCheck.jsp</result>
         </action>
 
-        <action name="Messages" class="com.fortify.samples.riches.Messages">
+        <action name="Messages" class="com.checkmarx.samples.riches.Messages">
             <result>/pages/Messages.jsp</result>
         </action>
-        <action name="ViewMessage" class="com.fortify.samples.riches.ViewMessage">
+        <action name="ViewMessage" class="com.checkmarx.samples.riches.ViewMessage">
             <result>/pages/ViewMessage.jsp</result>
         </action>
-        <action name="DeleteMessage" class="com.fortify.samples.riches.DeleteMessage">
+        <action name="DeleteMessage" class="com.checkmarx.samples.riches.DeleteMessage">
             <result>/pages/DeleteMessage.jsp</result>
         </action>
 
-        <action name="PayBill" class="com.fortify.samples.riches.PayBill">
+        <action name="PayBill" class="com.checkmarx.samples.riches.PayBill">
             <result>/pages/PayBill.jsp</result>
         </action>
     </package>
 
     <package name="oper" namespace="/auth/oper" extends="struts-default">
-        <action name="Admin" class="com.fortify.samples.riches.oper.Admin">
+        <action name="Admin" class="com.checkmarx.samples.riches.oper.Admin">
             <result>/pages/oper/Admin.jsp</result>
         </action>
-       <action name="Newsletter" class="com.fortify.samples.riches.AdminSupport">
+       <action name="Newsletter" class="com.checkmarx.samples.riches.AdminSupport">
            <result>/pages/oper/Newsletter.jsp</result>
        </action>
-        <action name="SendMessage" class="com.fortify.samples.riches.oper.SendMessage">
+        <action name="SendMessage" class="com.checkmarx.samples.riches.oper.SendMessage">
             <result>/pages/oper/SendMessage.jsp</result>
             <result name="input">/pages/oper/InvalidEmail.jsp</result>
         </action>
-       <action name="SendNewsletter" class="com.fortify.samples.riches.oper.SendNewsletter">
+       <action name="SendNewsletter" class="com.checkmarx.samples.riches.oper.SendNewsletter">
            <result>/pages/oper/SendNewsletter.jsp</result>
        </action>
 
-       <action name="Newsletter" class="com.fortify.samples.riches.AdminSupport">
+       <action name="Newsletter" class="com.checkmarx.samples.riches.AdminSupport">
            <result>/pages/oper/Newsletter.jsp</result>
        </action>
-       <action name="SendNewsletter" class="com.fortify.samples.riches.oper.SendNewsletter">
+       <action name="SendNewsletter" class="com.checkmarx.samples.riches.oper.SendNewsletter">
            <result>/pages/oper/SendNewsletter.jsp</result>
        </action>
 
-       <action name="ProfilePicture" class="com.fortify.samples.riches.AdminSupport">
+       <action name="ProfilePicture" class="com.checkmarx.samples.riches.AdminSupport">
            <result>/pages/oper/ProfilePicture.jsp</result>
        </action>
-       <action name="UploadProfilePicture" class="com.fortify.samples.riches.oper.UploadProfilePicture">
+       <action name="UploadProfilePicture" class="com.checkmarx.samples.riches.oper.UploadProfilePicture">
           <result>/pages/oper/UploadProfilePicture.jsp</result>
        </action>
-       <action name="AddAccount" class="com.fortify.samples.riches.oper.CreateAccount">
+       <action name="AddAccount" class="com.checkmarx.samples.riches.oper.CreateAccount">
           <result>/pages/oper/CreateAccount.jsp</result>
        </action>
-        <action name="DeleteAccount" class="com.fortify.samples.riches.oper.DeleteAccount">
+        <action name="DeleteAccount" class="com.checkmarx.samples.riches.oper.DeleteAccount">
           <result>/pages/oper/DeleteAccount.jsp</result>
        </action>
-       <action name="BrowseAccount" class="com.fortify.samples.riches.oper.BrowseAccount">
+       <action name="BrowseAccount" class="com.checkmarx.samples.riches.oper.BrowseAccount">
          <result>/pages/oper/BrowseAccount.jsp</result>
       </action>
 
-       <action name="Files" class="com.fortify.samples.riches.oper.Files">
+       <action name="Files" class="com.checkmarx.samples.riches.oper.Files">
          <result>/pages/oper/Files.jsp</result>
       </action>
     </package>

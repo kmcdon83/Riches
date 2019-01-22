@@ -1,7 +1,7 @@
-package com.fortify.samples.riches.model;
+package com.checkmarx.samples.riches.model;
 
-import com.fortify.samples.riches.database.ConnFactory;
-import com.fortify.samples.riches.database.ConnectionFactory;
+import com.checkmarx.samples.riches.database.ConnFactory;
+import com.checkmarx.samples.riches.database.ConnectionFactory;
 
 import java.util.List;
 import java.util.ArrayList;

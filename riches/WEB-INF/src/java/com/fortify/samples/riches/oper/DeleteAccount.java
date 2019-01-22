@@ -1,16 +1,16 @@
-package com.fortify.samples.riches.oper;
+package com.checkmarx.samples.riches.oper;
 
-import com.fortify.samples.riches.AdminSupport;
-import com.fortify.samples.riches.model.Account;
-import com.fortify.samples.riches.model.AccountService;
-import com.fortify.samples.riches.model.Profile;
-import com.fortify.samples.riches.model.ProfileService;
+import com.checkmarx.samples.riches.AdminSupport;
+import com.checkmarx.samples.riches.model.Account;
+import com.checkmarx.samples.riches.model.AccountService;
+import com.checkmarx.samples.riches.model.Profile;
+import com.checkmarx.samples.riches.model.ProfileService;
 import java.util.List;
 import org.apache.struts2.ServletActionContext;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-// Referenced classes of package com.fortify.samples.riches:
+// Referenced classes of package com.checkmarx.samples.riches:
 //            AdminSupport
 
 public class DeleteAccount extends AdminSupport

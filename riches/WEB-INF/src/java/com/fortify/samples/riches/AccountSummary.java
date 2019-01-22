@@ -1,13 +1,13 @@
-package com.fortify.samples.riches;
+package com.checkmarx.samples.riches;
 
 import com.opensymphony.xwork2.ActionSupport;
 import org.apache.struts2.ServletActionContext;
 import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
-import com.fortify.samples.riches.model.AccountService;
-import com.fortify.samples.riches.model.ProfileService;
-import com.fortify.samples.riches.model.Profile;
+import com.checkmarx.samples.riches.model.AccountService;
+import com.checkmarx.samples.riches.model.ProfileService;
+import com.checkmarx.samples.riches.model.Profile;
 
 public class AccountSummary extends AdminSupport
 {

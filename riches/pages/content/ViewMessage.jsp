@@ -1,5 +1,5 @@
 <%@ include file="../common/moduleInclude.jsp" %>
-<%@ page import="com.fortify.samples.riches.model.*" %>
+<%@ page import="com.checkmarx.samples.riches.model.*" %>
 
 <% String incomingParameter = request.getParameter("id");
    Long decodedParameter = Long.decode(incomingParameter.trim());

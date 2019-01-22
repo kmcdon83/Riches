@@ -1,6 +1,6 @@
-package com.fortify.samples.riches.oper;
+package com.checkmarx.samples.riches.oper;
 
-import com.fortify.samples.riches.AdminSupport;
+import com.checkmarx.samples.riches.AdminSupport;
 
 public class Files extends AdminSupport
 {

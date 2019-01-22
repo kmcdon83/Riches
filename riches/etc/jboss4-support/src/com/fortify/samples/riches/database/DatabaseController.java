@@ -1,17 +1,17 @@
 /***********************************************************************
- * (C) Copyright 2005  Fortify Software Inc.   All Rights Reserved.
+ * (C) Copyright 2005  checkmarx Software Inc.   All Rights Reserved.
  *
- *  Copyright 2005 Fortify Software, Inc. All rights reserved.
+ *  Copyright 2005 checkmarx Software, Inc. All rights reserved.
  *  This software is provided solely in connection with the terms
  *  of the license agreement.  Any other use without the prior express
- *  written permission of Fortify Software is completely prohibited.
+ *  written permission of checkmarx Software is completely prohibited.
  ************************************************************************/
 
-package com.fortify.samples.riches.database;
+package com.checkmarx.samples.riches.database;
 
 import javax.servlet.ServletContextListener;
 import javax.servlet.ServletContextEvent;
-/* $File: //depot/releases/twopi/rolling_stones/samples/Samples/advanced/riches.java/riches/etc/jboss4-support/src/com/fortify/samples/riches/database/DatabaseController.java $ 
+/* $File: //depot/releases/twopi/rolling_stones/samples/Samples/advanced/riches.java/riches/etc/jboss4-support/src/com/checkmarx/samples/riches/database/DatabaseController.java $ 
  * Created by: adam on Aug 8, 2005
  *
  * Details of last change:

@@ -1,6 +1,6 @@
-package com.fortify.samples.riches.restful;
+package com.checkmarx.samples.riches.restful;
 
-import com.fortify.samples.riches.model.*;
+import com.checkmarx.samples.riches.model.*;
 import java.io.IOException;
 import java.io.StringReader;
 import java.util.List;

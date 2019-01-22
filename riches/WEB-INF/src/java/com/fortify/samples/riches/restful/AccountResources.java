@@ -1,7 +1,7 @@
-package com.fortify.samples.riches.restful;
+package com.checkmarx.samples.riches.restful;
 
-import com.fortify.samples.riches.PerformRegistration;
-import com.fortify.samples.riches.model.*;
+import com.checkmarx.samples.riches.PerformRegistration;
+import com.checkmarx.samples.riches.model.*;
 
 import javax.ws.rs.WebApplicationException;
 import javax.ws.rs.GET;

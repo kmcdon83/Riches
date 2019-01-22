@@ -1,4 +1,4 @@
-package com.fortify.samples.riches.database;
+package com.checkmarx.samples.riches.database;
 
 import net.sf.hibernate.HibernateException;
 import net.sf.hibernate.MappingException;
@@ -8,7 +8,7 @@ import net.sf.hibernate.cfg.Configuration;
 
 import java.util.logging.Logger;
 
-import com.fortify.samples.riches.model.*;
+import com.checkmarx.samples.riches.model.*;
 
 public class ConnectionFactory
 {

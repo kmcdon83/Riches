@@ -1,4 +1,4 @@
-package com.fortify.samples.riches.restful;
+package com.checkmarx.samples.riches.restful;
 
 import javax.ws.rs.WebApplicationException;
 import javax.ws.rs.GET;

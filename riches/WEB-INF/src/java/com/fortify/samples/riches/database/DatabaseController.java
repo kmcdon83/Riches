@@ -1,4 +1,4 @@
-package com.fortify.samples.riches.database;
+package com.checkmarx.samples.riches.database;
 
 import org.apache.commons.dbcp.BasicDataSource;
 
