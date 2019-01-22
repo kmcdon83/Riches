@@ -272,7 +272,7 @@ response.setDateHeader ("Expires", 0); //prevents caching at the proxy server
 							<tr valign="top" class="footer">
 								<td colspan="3">
 								<br />
-									<p id="footerNav"><a href="<s:url value="../pages/About.jsp"/>">About RWi</a> | <a href="<s:url action="../Careers"/>">Careers</a> | <a href="<s:url action="../Security"/>?privacy_statement=http://www.hp.com/country/us/en/privacy.html">Privacy, Security &amp; Legal</a> | <a >Report Email Fraud</a> | <a >Diversity &amp; Accessibility</a>  <br /><a >Important Notice on Trading in Fast Markets</a> | <a >Online Access Agreement (3/06/2008) </a> | <a >Sitemap</a></p>
+									<p id="footerNav"><a href="<s:url value="../pages/About.jsp"/>">About RWi</a> | <a href="<s:url action="../Careers"/>">Careers</a> | <a href="<s:url action="../Security"/>?privacy_statement=http://www.cxcom/country/us/en/privacy.html">Privacy, Security &amp; Legal</a> | <a >Report Email Fraud</a> | <a >Diversity &amp; Accessibility</a>  <br /><a >Important Notice on Trading in Fast Markets</a> | <a >Online Access Agreement (3/06/2008) </a> | <a >Sitemap</a></p>
 								</td>
 							</tr>
 						</table>
