@@ -9,11 +9,12 @@
     <property name="build.number" value="0"/>
     <property name="majorversion" value="3.1"/>
     <property name="fullversion" value="${majorversion}.${build.number}"/>
-    
+
     <property name="project.version" value="${fullversion}"/>
 
     <!-- Path settings -->
     <property name="web-inf" location="${basedir}/WEB-INF"/>
+    
     <property name="src.java" location="${web-inf}/src/java"/>
     <property name="libs" location="${web-inf}/lib"/>
     <property name="classes" location="${web-inf}/classes"/>
