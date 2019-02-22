@@ -7,7 +7,7 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
-      - tar -cvzf riches.tgz .
+      - tar -cvzf riches.tgz riches/
       
 artifacts:
   files:
